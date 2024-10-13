@@ -1,0 +1,39 @@
+header {
+    background-color: chartreuse;
+    padding: 20px;
+    
+    
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: darkgreen;
+}
+
+nav a:focus {
+    background-color: blanchedalmond;
+}
+
+nav a:focus {
+    background-color: beige;
+}
+
+nav li:first-child {
+   text-decoration: underline;
+}
+
+
+nav li:nth-child(6) {
+    color: gold;
+}
